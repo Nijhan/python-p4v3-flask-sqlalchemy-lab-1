@@ -1,0 +1,4 @@
+- [x] Edit server/app.py to add Flask app definition and routes
+- [x] Edit server/seed.py to fix import from app import db, app to from models import db, from app import app
+- [x] Edit server/testing/models_test.py to remove from app import app
+- [x] Run pytest to verify all tests pass

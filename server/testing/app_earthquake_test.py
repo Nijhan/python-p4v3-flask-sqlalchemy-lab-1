@@ -2,11 +2,11 @@ from os import environ
 import re
 import json
 
-from app import app
+from server.app import app   # ✅ fixed import
 
 
 class TestApp:
-    '''Flask application in flask_app.py'''
+    '''Flask application in server/app.py'''
 
     def test_earthquake_found_route(self):
         '''has a resource available at "/earthquakes/<id>".'''

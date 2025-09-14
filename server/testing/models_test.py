@@ -1,4 +1,3 @@
-from app import app
 from server.models import db, Earthquake
 from sqlalchemy_serializer import SerializerMixin
 
